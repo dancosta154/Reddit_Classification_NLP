@@ -1,19 +1,12 @@
-# Project 3: Classifying Subreddits: Backpacking vs Ultrarunning
-
-This project is a part of DSIR-EC-124 at [General Assembly](https://generalassemb.ly/). 
+# Classifying Subreddits: Backpacking vs Ultrarunning
 
 #### Project Status: [Completed]
 
 ## Project Obective
-As a Data Scientist for L.L. Bean, I have been tasked with building a model that can analyze social media posts to accurately identify target markets in potentially conflicting market spaces, i.e. backpacking and ultrarunning.
-
-## Introduction
-Through the pandemic and evolving uncertainty in the world, Supply Chain is facing extremely challenging times. In order to combat these hardships, companies are putting an emphasis on both forecast accuracy and improved Marketing strategies. These challenges have impacted all channels of selling, from Retail to our internet presence. As roughly 65% of L.L. Bean's demand comes from our online presence, there is an increased amount of pressure to ensure that we are accurately meeting this demand.
-
-As a Data Scientist working within the Marketing division, I have been tasked with building the most efficient and accurate model to identify target markets in conflicting market spaces. As we know, L.L. Bean carries many products that overlap into different areas, such as backpacking and running gear, which makes the task of classifying these markets very difficult.
+The intent of this project is to build a model that can analyze social media posts to accurately identify target markets in potentially conflicting market spaces, i.e. backpacking and ultrarunning.
 
 ## Executive Summary
-In order to represent the online presence mentioned previously, the models that I built leveraged data scraped from the social media platform, Reddit. In particular, the data came from the Backpacking and Ultrarunning subreddits, as these communities accurately represent our customer base. 
+The model that I built leveraged data scraped from the social media platform, Reddit. In particular, the data came from the Backpacking and Ultrarunning subreddits, as these communities accurately represent the project objective as identified previously. 
 
 Once the data had been collected, using the [`reddit_scraper`](./data_cleaning_and_eda/reddit_scraper.ipynb) notebook, it was stored in the `raw_data` folder in a file called [`reddit.csv`](./raw_data/reddit.csv). From there, the data was cleaned utilizing the [`data_cleaning`](./data_cleaning_and_eda/data_cleaning.ipynb) notebook, then saved to the `clean_data` folder in a file called [`reddit_clean.csv`](./clean_data/reddit_clean.csv).
 
